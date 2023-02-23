@@ -1,0 +1,67 @@
+{
+  "id" : "https://janzimmermann.github.io/zb-try/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in janzimmermann/zb-try project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1440,
+    "id" : "https://janzimmermann.github.io/zb-try/images/xyzett_see_green_light/canvas/",
+    "label" : {
+      "none" : [ "xyzett_see_green_light" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://janzimmermann.github.io/zb-try/images/xyzett_see_green_light/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://janzimmermann.github.io/zb-try/images/xyzett_see_green_light/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 45,
+              "height" : 30
+            }, {
+              "width" : 90,
+              "height" : 60
+            }, {
+              "width" : 180,
+              "height" : 120
+            }, {
+              "width" : 360,
+              "height" : 240
+            }, {
+              "width" : 720,
+              "height" : 480
+            }, {
+              "width" : 1440,
+              "height" : 960
+            } ],
+            "profile" : "level0",
+            "width" : 1440,
+            "id" : "https://janzimmermann.github.io/zb-try/images/xyzett_see_green_light",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 960
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1440,
+          "id" : "https://janzimmermann.github.io/zb-try/images/xyzett_see_green_light/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 960
+        },
+        "target" : "https://janzimmermann.github.io/zb-try/images/xyzett_see_green_light/canvas/"
+      } ]
+    } ],
+    "height" : 960
+  } ]
+}
