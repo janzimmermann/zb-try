@@ -1,0 +1,13 @@
+{
+  "id" : "https://janzimmermann.github.io/zb-try/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in janzimmermann/zb-try project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://janzimmermann.github.io/zb-try/manifests/moewe-manifest.json",
+    "label" : "[1 Möwe auf der Mauer]"
+  } ]
+}
