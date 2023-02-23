@@ -1,0 +1,93 @@
+{
+  "viewingHint" : "paged",
+  "attribution" : "e-manuscripta.ch, the digital platform for manuscript material from Swiss libraries and archives",
+  "service" : [ ],
+  "license" : "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+  "structures" : [ ],
+  "sequences" : [ {
+    "canvases" : [ {
+      "height" : 3697,
+      "width" : 4518,
+      "images" : [ {
+        "resource" : {
+          "service" : {
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-manuscripta.ch/i3f/v20/1957505"
+          },
+          "format" : "image/jpeg",
+          "height" : 818,
+          "width" : 1000,
+          "@id" : "https://www.e-manuscripta.ch/download/webcache/1000/1957505",
+          "@type" : "dctypes:Image"
+        },
+        "on" : "https://www.e-manuscripta.ch/i3f/v20/1957504/canvas/1957505",
+        "motivation" : "sc:painting",
+        "@id" : "https://www.e-manuscripta.ch/i3f/v20/1957504/annotation/1957505",
+        "@type" : "oa:Annotation"
+      } ],
+      "label" : "[1]",
+      "@id" : "https://www.e-manuscripta.ch/i3f/v20/1957504/canvas/1957505",
+      "@type" : "sc:Canvas"
+    } ],
+    "viewingHint" : "paged",
+    "startCanvas" : "https://www.e-manuscripta.ch/i3f/v20/1957504/canvas/1957505",
+    "viewingDirection" : "left-to-right",
+    "label" : "Current Page Order",
+    "@context" : "http://iiif.io/api/presentation/2/context.json",
+    "@id" : "https://www.e-manuscripta.ch/i3f/v20/1957504/sequence/normal",
+    "@type" : "sc:Sequence"
+  } ],
+  "label" : "[1 Möwe auf der Mauer]",
+  "thumbnail" : {
+    "width" : 304,
+    "height" : 248,
+    "@id" : "https://www.e-manuscripta.ch/i3f/v21/1957505/full/304/0/default.jpg",
+    "@type" : "dctypes:Image",
+    "format" : "image/jpeg"
+  },
+  "logo" : {
+    "@id" : "https://www.e-manuscripta.ch/domainimage/logo.svg",
+    "service" : {
+      "profile" : "http://iiif.io/api/image/2/level2.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "http://www.zb.uzh.ch"
+    }
+  },
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "metadata" : [ {
+    "value" : "[1 Möwe auf der Mauer] / [Robert Breitinger]",
+    "label" : "Titel"
+  }, {
+    "value" : "Blick vom Limmatquai auf die Häuser an der Wühre",
+    "label" : "Beschreibung"
+  }, {
+    "value" : "Breitinger, Robert [1841-1913]",
+    "label" : "Autor, Beteiligte"
+  }, {
+    "value" : "[Zürich] : [Robert Breitinger], [1901]",
+    "label" : "Entstehung"
+  }, {
+    "value" : "1 Fotografie : Silbergelatineabzug ; 8,9 x 9,6 cm",
+    "label" : "Umfang"
+  }, {
+    "value" : "Zentralbibliothek Zürich, Breitinger, Cabinet VI, Tiere 6271/0/1901",
+    "label" : "Besitzende Institution"
+  }, {
+    "value" : "23.5.2018",
+    "label" : "Online seit"
+  }, {
+    "value" : "Wühre (Zürich)",
+    "label" : "Schlagwort"
+  }, {
+    "value" : "https://doi.org/10.7891/e-manuscripta-71533",
+    "label" : "DOI"
+  } ],
+  "@id" : "https://janzimmermann.github.io/zb-try/manifests/moewe-manifest.json",
+  "@type" : "sc:Manifest",
+  "seeAlso" : {
+    "format" : "application/xml",
+    "@id" : "https://www.e-manuscripta.ch/oai?verb=GetRecord&metadataPrefix=mets&identifier=1957504",
+    "label" : "METS"
+  }
+}
